@@ -13,3 +13,7 @@ The project is hosted on GitHub, a collaborative platform that facilitates effic
 
 By providing these features, the Empowering the Nation App not only equips users with valuable skills but also inspires them to take control of their personal
 growth and future opportunities. This transformative impact makes it a meaningful tool for improving the quality of life for older adults. 
+
+The YouTube Video Link:
+https://youtu.be/GE_qXngwhMo
+
