@@ -10,7 +10,7 @@ const Landscaping = ({ navigation }: any) => {
 
       {/* Image */}
       <Image
-        source={require('../assets/garden44.jpg')} // You might want to replace this with a landscaping-related image
+        source={require('../assets/garden44.jpg')} 
         style={styles.image}
         accessibilityLabel="Landscaping course image"
       />
@@ -43,7 +43,7 @@ const Landscaping = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>

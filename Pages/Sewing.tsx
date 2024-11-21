@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-// Change component name to SewingPage
+
 const SewingPage = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
@@ -10,7 +10,7 @@ const SewingPage = ({ navigation }: any) => {
 
       {/* Image */}
       <Image
-        source={require('../assets/neet.jpg')} // You may want to replace this with a relevant image for sewing
+        source={require('../assets/neet.jpg')} 
         style={styles.image}
         accessibilityLabel="Sewing course image"
       />
@@ -43,7 +43,7 @@ const SewingPage = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} // Navigating to the FormPage
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>

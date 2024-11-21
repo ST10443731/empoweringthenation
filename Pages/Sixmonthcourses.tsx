@@ -16,11 +16,11 @@ const SixMonthsCourses: React.FC = () => {
         These courses cover topics like handling emergencies, building a fulfilling life, advancing your career, and mastering practical skills with basic human knowledge.
       </Text>
 
-      {/* Courses Grid */}
+      {/* Courses  */}
       <View style={styles.coursesGrid}>
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('FirstAidPage')} // Navigate to the First Aid page
+          onPress={() => navigation.navigate('FirstAidPage')} 
         >
           <Image
             source={require('../assets/Aid.jpg')}
@@ -32,7 +32,7 @@ const SixMonthsCourses: React.FC = () => {
 
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('SewingPage')} // Navigate to the Sewing page
+          onPress={() => navigation.navigate('SewingPage')} 
         >
           <Image
             source={require('../assets/sewing.jpg')}
@@ -44,7 +44,7 @@ const SixMonthsCourses: React.FC = () => {
 
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('LandscapingPage')} // Navigate to the Landscaping page
+          onPress={() => navigation.navigate('LandscapingPage')} 
         >
           <Image
             source={require('../assets/landscaping.jpg')}
@@ -56,7 +56,7 @@ const SixMonthsCourses: React.FC = () => {
 
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('LifeSkillsPage')} // Navigate to the Life Skills page
+          onPress={() => navigation.navigate('LifeSkillsPage')} 
         >
           <Image
             source={require('../assets/lifeskill.jpg')}
@@ -70,7 +70,7 @@ const SixMonthsCourses: React.FC = () => {
       {/* Back Button */}
       <TouchableOpacity
         style={styles.backButton}
-        onPress={() => navigation.navigate('HomePage')} // Navigate back to the homepage
+        onPress={() => navigation.navigate('HomePage')} 
       >
         <Text style={styles.backButtonText}>Back to Home</Text>
       </TouchableOpacity>

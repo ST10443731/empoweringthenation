@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-// Change component name to LifeskillPage
+
 const LifeskillPage = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
@@ -11,7 +11,7 @@ const LifeskillPage = ({ navigation }: any) => {
 
       {/* Image */}
       <Image
-        source={require('../assets/save.jpg')} // You may want to replace this with a more relevant image for life skills
+        source={require('../assets/save.jpg')} 
         style={styles.image}
         accessibilityLabel="Life skills course image"
       />
@@ -43,7 +43,7 @@ const LifeskillPage = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>

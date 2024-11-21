@@ -12,10 +12,10 @@ const HomePage: React.FC = () => {
       {/* Logo Section */}
       <View style={styles.logoSection}>
         <Image
-          source={require('../assets/XHAW GROUP 1 LOGO.png')} // Ensure the image path is correct
+          source={require('../assets/XHAW GROUP 1 LOGO.png')} 
           style={styles.logo}
           resizeMode="contain"
-          accessibilityLabel="Empowering the Nation Logo" // Added accessibility label
+          accessibilityLabel="Empowering the Nation Logo" 
         />
       </View>
 
@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
       <View style={styles.contactSection}>
         <TouchableOpacity
           style={styles.contactButton}
-          onPress={() => navigation.navigate('ContactUsPage')} // Navigate to ContactUs page
+          onPress={() => navigation.navigate('ContactUsPage')} 
         >
           <Text style={styles.contactButtonText}>Contact Us</Text>
         </TouchableOpacity>

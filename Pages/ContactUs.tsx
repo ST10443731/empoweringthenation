@@ -48,7 +48,7 @@ const ContactUsPage = () => {
       {/* Book Now Button */}
       <TouchableOpacity
         style={styles.smallButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to FormPage
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.smallButtonText}>Book Now</Text>
       </TouchableOpacity>

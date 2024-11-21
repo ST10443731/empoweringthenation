@@ -34,7 +34,7 @@ const CookingPage = ({ navigation }: any) => {
           To prepare and cook nutritious family meals
         </Text>
 
-        {/* Content */}
+        
         <Text style={styles.textHeading}>Content:</Text>
         <Text style={styles.textDetails}>- Nutritional requirements for a healthy body</Text>
         <Text style={styles.textDetails}>- Types of protein, carbohydrates, and vegetables</Text>
@@ -42,10 +42,10 @@ const CookingPage = ({ navigation }: any) => {
         <Text style={styles.textDetails}>- Preparation and cooking of meals</Text>
       </View>
 
-      {/* Enroll Button */}
+      
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>

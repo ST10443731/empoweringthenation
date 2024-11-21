@@ -36,7 +36,7 @@ const FormPage = () => {
     const numCourses = selectedCourses.length;
     let discountRate = 0;
 
-    //to Apply discount logic
+    //to APply discount logic
     if (numCourses === 2) discountRate = 5;
     else if (numCourses === 3) discountRate = 10;
     else if (numCourses > 3) discountRate = 15;
@@ -65,7 +65,7 @@ const FormPage = () => {
     );
   };
 
-  // Handled booking submission
+  // for booking submission
   const handleBooking = () => {
     // Validated form inputs
     if (!name.trim() || !contact.trim() || !email.trim()) {
@@ -80,7 +80,7 @@ const FormPage = () => {
       return;
     }
 
-    // Validate contact number (ensure it's numeric and at least 10 digits)
+    // Validate contact number by ensuring it's numeric and at least 10 digits)
     if (!/^\d{10,}$/.test(contact)) {
       Alert.alert('Error', 'Please enter a valid contact number (at least 10 digits).');
       return;
@@ -92,7 +92,7 @@ const FormPage = () => {
       `Booking successful! Your total fee is R${totalFee.toFixed(2)}`
     );
 
-    // Reset form fields and selections
+    //  form fields and selections
     setName('');
     setContact('');
     setEmail('');
@@ -190,7 +190,7 @@ const FormPage = () => {
         keyboardType="email-address"
       />
 
-      {/* Book Now Button */}
+      {/*  Button */}
       <TouchableOpacity style={styles.bookButton} onPress={handleBooking}>
         <Text style={styles.bookButtonText}>Book now</Text>
       </TouchableOpacity>

@@ -4,24 +4,24 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 const Childminding = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
-      {/* Title */}
+      
       <Text style={styles.title}>Child Minding</Text>
 
-      {/* Image */}
+      
       <Image
         source={require('../assets/Minding.jpg')}
         style={styles.image}
         accessibilityLabel="Child Minding course image"
       />
 
-      {/* Color Boxes */}
+      
       <View style={styles.colorBoxes}>
         <View style={[styles.colorBox, { backgroundColor: '#558B2F' }]} />
         <View style={[styles.colorBox, { backgroundColor: '#8B5E3C' }]} />
         <View style={[styles.colorBox, { backgroundColor: '#98C172' }]} />
       </View>
 
-      {/* Fee, Purpose, Content */}
+      {/* Feee, PurPOse Content */}
       <View style={styles.textContent}>
         <Text style={styles.textHeading}>Fees:</Text>
         <Text style={styles.textDetails}>R750</Text>
@@ -41,7 +41,7 @@ const Childminding = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>

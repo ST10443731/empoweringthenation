@@ -43,7 +43,7 @@ const Firstaid = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the FormPage
+        onPress={() => navigation.navigate('FormPage')} 
         accessibilityLabel="Enroll in the First Aid course"
       >
         <Text style={styles.buttonText}>Enroll Now</Text>

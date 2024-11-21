@@ -16,19 +16,19 @@ const SixWeeksCourses: React.FC = () => {
       </Text>
 
       <View style={styles.coursesGrid}>
-        {/* Child Minding Course */}
+        {/* Child Minding Course Navigation*/}
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('ChildMindingPage')} // Navigate to ChildMindingPage
+          onPress={() => navigation.navigate('ChildMindingPage')} 
         >
           <Image source={require('../assets/child.jpg')} style={styles.courseImage} />
           <Text style={styles.courseTitle}>CHILD MINDING</Text>
         </TouchableOpacity>
 
-        {/* Garden Maintenance Course */}
+        {/* Garden Maintenance Course Navigation */}
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('GardenMaintenancePage')} // Navigate to GardenMaintenancePage
+          onPress={() => navigation.navigate('GardenMaintenancePage')} 
         >
           <Image source={require('../assets/Garden3.png')} style={styles.courseImage} />
           <Text style={styles.courseTitle}>GARDEN MAINTENANCE</Text>
@@ -37,7 +37,7 @@ const SixWeeksCourses: React.FC = () => {
         {/* Cooking Course */}
         <TouchableOpacity
           style={styles.courseItem}
-          onPress={() => navigation.navigate('CookingPage')} // Navigate to CookingPage
+          onPress={() => navigation.navigate('CookingPage')} 
         >
           <Image source={require('../assets/cooking.png')} style={styles.courseImage} />
           <Text style={styles.courseTitle}>COOKING</Text>
@@ -47,7 +47,7 @@ const SixWeeksCourses: React.FC = () => {
       {/* Back Button */}
       <TouchableOpacity
         style={styles.backButton}
-        onPress={() => navigation.navigate('HomePage')} // Navigate to Homepage
+        onPress={() => navigation.navigate('HomePage')} 
       >
         <Text style={styles.backButtonText}>Back to Home</Text>
       </TouchableOpacity>

@@ -8,10 +8,10 @@ const GardenMaintenancePage = ({ navigation }: any) => {
       {/* Title */}
       <Text style={styles.title}>GARDEN MAINTENANCE</Text>
 
-      {/* Image */}
+      
       <Image source={require('../assets/grr.jpg')} style={styles.image} />
 
-      {/* Color Boxes */}
+      
       <View style={styles.colorBoxes}>
         <View style={[styles.colorBox, { backgroundColor: '#4CAF50' }]} />
         <View style={[styles.colorBox, { backgroundColor: '#8B5E3C' }]} />
@@ -41,7 +41,7 @@ const GardenMaintenancePage = ({ navigation }: any) => {
       {/* Enroll Button */}
       <TouchableOpacity
         style={styles.enrollButton}
-        onPress={() => navigation.navigate('FormPage')} // Navigate to the enrollment form
+        onPress={() => navigation.navigate('FormPage')} 
       >
         <Text style={styles.buttonText}>Enroll Now</Text>
       </TouchableOpacity>
