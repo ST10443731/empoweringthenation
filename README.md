@@ -1,4 +1,4 @@
-The empowering the nation app is developed by a group 1.  
+The empowering the nation app is developed by a group 1- Project analysis development and data collaboration.  
 The application is developed for older individuals who do not have practical skills such as cooking, garden maintenance and many more. 
 The app is developed to help users enroll in classes for the skill they want to develop. The app features an intuitive interface 
 with large buttons, large images, readable fonts, and seamless navigation, catering to users with varying levels of technological experience. 
